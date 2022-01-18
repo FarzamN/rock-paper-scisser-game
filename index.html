@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scisser Game</h1>
+        <div class="images">
+            <img id="rock" src="rock.png" onclick="rpsgame(this)" alt="">
+            <img id="paper" src="paper.png" onclick="rpsgame(this)" alt="">
+            <img id="scisser" src="transparent-bg-+-shadow-designify.png" onclick="rpsgame(this)" alt="">
+            <img id="rock-2" src="rock.png" onclick="rpsgame(this)" alt="">
+            <img id="paper-2" src="paper.png" onclick="rpsgame(this)" alt="">
+            <img id="scisser-2" src="transparent-bg-+-shadow-designify.png" onclick="rpsgame(this)" alt="">
+       </div>
+        <p id="userselect"></p>
+        <br/>
+        <p id="comselect"></p>
+        <p id="win">You Win</p>
+        <p id="draw">Game Draw</p>
+        <p id="lose">You Lose</p>
+        <button onclick="reset()" id="btn">Reset</button>
+    </div>
+</body>
+</html>

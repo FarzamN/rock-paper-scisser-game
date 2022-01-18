@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+img:hover{
+    box-shadow: blue 1px 2px 7px 3px;
+
+}
+#win{
+    text-align: center;
+font-size: 3rem;
+color: rgb(32, 32, 185);
+display: none;
+}
+#draw{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(85, 85, 85);
+    display: none;
+}
+#lose{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(253, 7, 7);
+    display: none;
+}
+button{
+    padding: 8px;
+    color: #fff;
+    background-color: rgb(55, 55, 202);
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+#rock-2{
+    display: none;
+}
+#paper-2{
+display: none;
+}
+#scisser-2{
+    display: none;
+}
+#userselect{
+    text-align: center;
+    font-size: 1.5rem;
+}
